@@ -489,7 +489,8 @@ h1 {
     }
 
     .left-top p {
-        font-size: 1rem;
+        font-size: 1.25rem;
+        width: 100%;
     }
 
     .bottom-right-container {
@@ -508,7 +509,7 @@ h1 {
         background-color: var(--white);
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: space-between;
         align-items: start;
         padding: 2rem;
         row-gap: 1rem;
@@ -778,5 +779,10 @@ h1 {
     .left-bottom img {
         width: 80%;
         height: auto;
+    }
+
+    .left-top p {
+        font-size: 1rem;
+        width: 100%;
     }
 }
