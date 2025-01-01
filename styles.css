@@ -232,6 +232,10 @@ h1 {
     background-color: var(--light-purple);
 }
 
+.left-top P {
+    font-size: 1rem;
+}
+
 .left-top img {
     width: 400px;
     height: 400px;
